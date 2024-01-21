@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>משחק הנחש</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <button onclick="startGame()">התחל משחק</button>
+        <button onclick="toggleTheme()">מצב בהיר/כהה</button>
+        <label for="speed">מהירות:</label>
+        <select id="speed">
+            <option value="slow">לאט</option>
+            <option value="medium" selected>בינוני</option>
+            <option value="fast">מהיר</option>
+        </select>
+        <div id="scoreContainer">ניקוד: <span id="score">0</span></div>
+    </nav>
+    <canvas id="gameCanvas"></canvas>
+    <div id="gameOver" style="display:none;">
+        <h1>Game Over</h1>
+        <button onclick="startGame()">שחק שוב</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
