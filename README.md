@@ -1,3 +1,2 @@
 # Tetris_Game
-Building a Tetris game in Python. 
-# 👷🏻‍♂️🛠️🚧
+Building a Tetris game in Python 👷🏻‍♂️🛠️🚧
